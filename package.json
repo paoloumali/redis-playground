@@ -1,0 +1,15 @@
+{
+  "name": "redis-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "paoloumali",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.0.5",
+    "nodemon": "^2.0.16"
+  }
+}
