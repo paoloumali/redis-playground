@@ -1,1 +1,3 @@
 # redis playground
+
+- npm start
