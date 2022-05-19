@@ -1,7 +1,10 @@
 import Redis from 'ioredis';
+import Strings from './strings.mjs';
+import Hashes from './hashes.mjs';
 
 const redis = new Redis();
-redis.set('name', 'Emmanuel');
-redis.get('name', (err, result) => console.log(result));
+
+Strings(redis);
+Hashes(redis);
 
 
